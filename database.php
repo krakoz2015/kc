@@ -4,9 +4,9 @@ session_start();
 
 class Database{
     private $host = "localhost";
-    private $db_name = "allergist2_moz";
-    private $username = "allergist2_moz";
-    private $password = "dKEvT3IBt";
+    private $db_name = "";
+    private $username = "";
+    private $password = "";
     public $conn;
  
     public function getConnection(){
