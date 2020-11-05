@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+    color: #6a6f8c;
+    background: rgba(225,225,225,.8);    
+    font: 600 16px/18px 'Open Sans',sans-serif;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;    
+  }
+  .login-wrap{
+	  width: 100%;
+	  max-width: 550px;
+	  padding: 15px;
+	  margin: 0 auto;	    
+  }
+  .login-wrap .login-h1{
+  	font-size: 18px;
+  	margin-bottom: 0px;
+  }
+  .login-wrap .login-sp{
+  	font-size: 12px;
+	margin-bottom: 15px;
+
+  }
+  .login-form .group .check + label{
+    font-size: 12px;
+  }
+  .login-form{
+    min-height: 345px;
+    position: relative;
+    -webkit-perspective:1000px;
+            perspective:1000px;
+    -webkit-transform-style:preserve-3d;
+            transform-style:preserve-3d;
+  }
+  .login-form .group{
+    margin-bottom: 15px;
+  }
+  .login-form .group .label,
+  .login-form .group .input,
+  .login-form .group .button{
+    width: 100%;
+    display: block;
+  }
+  .login-form .group .input,
+  .login-form .group .button{
+    border: none;
+    padding: 15px 45px;
+    border-radius: 25px;
+  }
+  .login-form .group input[data-type="password"]{
+    text-security:circle;
+    -webkit-text-security:circle;
+  }
+  .login-form .group .label{
+    color: #aaa;
+    font-size: 12px;
+  }
+  .login-form .group .button{
+    background: #f99f47;
+	background-image: url(img/enter.png);
+    background-position: bottom 10px right 10px;
+    background-repeat: no-repeat;
+    text-align: left;
+    padding: 15px 15px;
+    font-size: 18px;
+  }
+  .login-form .group label .icon{
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    position: relative;
+    display: inline-block;
+    background: rgba(255,255,255,.1);
+  }
+  .login-form .group label .icon:before,
+  .login-form .group label .icon:after{
+    content: '';
+    width: 10px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    transition: all .2s ease-in-out 0s;
+  }
+  .login-form .group label .icon:before{
+    left: 3px;
+    width: 5px;
+    bottom: 6px;
+    -webkit-transform:scale(0) rotate(0);
+            transform:scale(0) rotate(0);
+  }
+  .login-form .group label .icon:after{
+    top: 6px;
+    right: 0;
+    -webkit-transform:scale(0) rotate(0);
+            transform:scale(0) rotate(0);
+  }
+  #login, #signup{
+    color: #fff;  	
+  }
+  #signup{
+  	display: none;
+  }
+  #username{
+	background-image: url(img/user.svg);
+    background-position: 4px 1px;
+    background-repeat: no-repeat;
+  }  
+  #password{
+	background-image: url(img/password.svg);
+    background-position: 4px 1px;
+    background-repeat: no-repeat;
+  }  
+  .message{
+  	color: red;
+  }
+  input:focus {
+  	outline:none
+  }
+  table tr th{
+  	background: #f99f47;
+  	height: 20px;  
+  }
+  table tr td{
+  	height: 70px;  
+  }
+  
+  tr.odd {
+    background-color: #ffffff;
+  }
+  tr.even {
+    background-color: #f9f9f9;
+  }
+  table{
+    width: 100%;
+  }
+  ul.pager {
+    margin: 0; 
+    padding: 4px;
+    margin-top: 15px;
+    font-size: 20px;    
+  }
+  ul.pager li {
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+  } 	
+  ul.pager li.active {
+    box-shadow:
+    inset 0 -0.1em #f99f47;
+    display: inline;
+  } 	
+  a {
+  	color: #6a6f8c;
+  }
+  .user_list{
+  	position: relative;
+	padding: 3.5rem;
+    margin-right: 0;
+    margin-left: 0; 
+    width: 100%; 	
+  }
+  .i_status{
+	display: inline-block;
+	background-image: url(img/ok-24.png);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+  }
+  .i_logout{
+	display: inline-block;
+	background-image: url(img/logout-16.png);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+  }
+  td.first{
+  	width: 10%;
+  	text-align: right;
+  	padding-right: 20px;
+  	margin-right: 20px;
+  }
+  td.seconde{
+  	width: 60%;
+  	padding-left: 20px;
+  }
+  .gray_text{
+	opacity: 0.6;
+    filter: alpha(opacity = 60);
+    display: block;  	
+    margin-top: 10px;
+  }
+  .def_group{
+  	display: block;
+  }
+  .footer{
+  	margin-top: 15px;
+  }
