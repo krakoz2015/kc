@@ -36,8 +36,6 @@ if ($urls[0]!='rest' or !isset($urls[1])){
 
 include_once 'config/database.php';
 
-//header("Content-Type: application/json; charset=UTF-8");
-
 switch ($urls[1]) {
 	case 'signup':
 		if ($method!='POST'){
@@ -204,15 +202,3 @@ switch ($urls[1]) {
 		error();
 		break;
 }
-
-
-/*
-print_r($urls);
-$router = $urls[0];
-$urlData = array_slice($urls, 1);
-
-print($method."\n");
-print($router."\n");
-print_r($urlData);
-print_r($formData);
-*/
