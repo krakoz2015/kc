@@ -8,6 +8,6 @@ MySQL database has two tables:
  * students​ -- list of people which to be shown once user is logged in
  
 Installing:
- 1 import kc.sql file in your DataBase
- 2 api/config/database.php fill in your data to connect to DataBase
- 3 execute index.html (test login: user1, password: 123456) 
+ * import kc.sql file in your DataBase
+ * api/config/database.php fill in your data to connect to DataBase
+ * execute index.html in browser (test login: user1, password: 123456) 
